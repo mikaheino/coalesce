@@ -1,0 +1,107 @@
+steps:
+  TEAM_INFO-19:
+    operation:
+      database: ""
+      dataset: ""
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 151
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEAM_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 152
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FRANCHISEID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 153
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: SHORTNAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 154
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEAMNAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 155
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: ABBREVIATION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 156
+              stepCounter: 19
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: LINK
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'TEAM_INFO') }}
+      name: TEAM_INFO
+      schema: ""
+      sqlType: Source
+      table: TEAM_INFO
+      type: sourceInput
+    stepCounter: "19"

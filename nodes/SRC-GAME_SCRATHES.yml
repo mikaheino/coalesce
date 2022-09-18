@@ -1,0 +1,62 @@
+steps:
+  GAME_SCRATHES-14:
+    operation:
+      database: ""
+      dataset: ""
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 92
+              stepCounter: 14
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: GAME_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 93
+              stepCounter: 14
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: TEAM_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 94
+              stepCounter: 14
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: PLAYER_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'GAME_SCRATHES') }}
+      name: GAME_SCRATHES
+      schema: ""
+      sqlType: Source
+      table: GAME_SCRATHES
+      type: sourceInput
+    stepCounter: "14"
