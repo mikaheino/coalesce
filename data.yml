@@ -7,9 +7,15 @@ jobs:
     subgraphs: []
 locations:
   DATA:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "3":
+        database: COALESCE_TEST
+        schema: DATA
   SRC:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "3":
+        database: COALESCE_TEST
+        schema: STG
 macros: {}
 packages: {}
 projects: {}
@@ -18,7 +24,7 @@ stepTypes:
     id: Dimension
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: DATA
       error: null
       nodeMetadataSpec: |-
         capitalized: Dimension
@@ -465,7 +471,7 @@ stepTypes:
     id: Fact
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: DATA
       error: null
       nodeMetadataSpec: |
         capitalized: Fact
@@ -1629,7 +1635,7 @@ stepTypes:
     id: Stage
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: DATA
       error: null
       nodeMetadataSpec: |
         capitalized: Stage
@@ -1834,7 +1840,7 @@ stepTypes:
     id: View
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: DATA
       error: null
       nodeMetadataSpec: |
         capitalized: View
@@ -1914,7 +1920,7 @@ stepTypes:
     id: persistentStage
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: DATA
       error: null
       nodeMetadataSpec: |
         capitalized: Persistent Stage
