@@ -1,5 +1,5 @@
 steps:
-  GAME_OFFICIALS-10:
+  GAME_OFFICIALS-51:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 64
-              stepCounter: 10
+              columnCounter: 672
+              stepCounter: 51
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 65
-              stepCounter: 10
+              columnCounter: 673
+              stepCounter: 51
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 66
-              stepCounter: 10
+              columnCounter: 674
+              stepCounter: 51
             config: {}
             dataType: VARCHAR(15)
             defaultValue: ""
@@ -59,4 +59,4 @@ steps:
       sqlType: Source
       table: GAME_OFFICIALS
       type: sourceInput
-    stepCounter: "10"
+    stepCounter: "51"

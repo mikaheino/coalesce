@@ -5,11 +5,6 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
-  Job-3:
-    id: 3
-    name: New Job
-    steps: []
-    subgraphs: []
 locations:
   DATA:
     mappingDefinitions: {}
@@ -1837,7 +1832,7 @@ stepTypes:
     version: 1
   StepType-View:
     id: View
-    isDisabled: true
+    isDisabled: false
     metadata:
       defaultStorageLocation: null
       error: null

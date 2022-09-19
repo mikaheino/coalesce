@@ -1,0 +1,324 @@
+steps:
+  FCT_GAME_PLAYS-69:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 870
+              stepCounter: "69"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PLAY_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 780
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 871
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GAME_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 781
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 872
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAM_ID_FOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 782
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 873
+              stepCounter: "69"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAM_ID_AGAINST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 783
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 874
+              stepCounter: "69"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: EVENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 784
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 875
+              stepCounter: "69"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SECONDARYTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 785
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 876
+              stepCounter: "69"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: X
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 786
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 877
+              stepCounter: "69"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: Y
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 787
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 878
+              stepCounter: "69"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 788
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 879
+              stepCounter: "69"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 789
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 880
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 790
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 881
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTIMEREMAINING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 791
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 882
+              stepCounter: "69"
+            dataType: DATE
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 792
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 883
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GOALSAWAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 793
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 884
+              stepCounter: "69"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GOALSHOME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 794
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 885
+              stepCounter: "69"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 795
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 886
+              stepCounter: "69"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ST_X
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 796
+                    stepCounter: "62"
+                transform: ""
+          - columnReference:
+              columnCounter: 887
+              stepCounter: "69"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ST_Y
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 797
+                    stepCounter: "62"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 888
+              stepCounter: "69"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 889
+              stepCounter: "69"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: STG_GAME_PLAYS
+            join:
+              joinCondition: FROM {{ ref('SRC', 'STG_GAME_PLAYS') }} "STG_GAME_PLAYS"
+            name: FCT_GAME_PLAYS
+            noLinkRefs: []
+      name: FCT_GAME_PLAYS
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: "69"

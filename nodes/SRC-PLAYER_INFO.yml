@@ -1,5 +1,5 @@
 steps:
-  PLAYER_INFO-18:
+  PLAYER_INFO-59:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 139
-              stepCounter: 18
+              columnCounter: 747
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 140
-              stepCounter: 18
+              columnCounter: 748
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 141
-              stepCounter: 18
+              columnCounter: 749
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -57,8 +57,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 142
-              stepCounter: 18
+              columnCounter: 750
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -72,8 +72,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 143
-              stepCounter: 18
+              columnCounter: 751
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -87,8 +87,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 144
-              stepCounter: 18
+              columnCounter: 752
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(10)
             defaultValue: ""
@@ -102,8 +102,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 145
-              stepCounter: 18
+              columnCounter: 753
+              stepCounter: 59
             config: {}
             dataType: DATE
             defaultValue: ""
@@ -117,8 +117,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 146
-              stepCounter: 18
+              columnCounter: 754
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(10)
             defaultValue: ""
@@ -132,8 +132,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 147
-              stepCounter: 18
+              columnCounter: 755
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -147,8 +147,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 148
-              stepCounter: 18
+              columnCounter: 756
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -162,8 +162,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 149
-              stepCounter: 18
+              columnCounter: 757
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -177,8 +177,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 150
-              stepCounter: 18
+              columnCounter: 758
+              stepCounter: 59
             config: {}
             dataType: VARCHAR(10)
             defaultValue: ""
@@ -194,4 +194,4 @@ steps:
       sqlType: Source
       table: PLAYER_INFO
       type: sourceInput
-    stepCounter: "18"
+    stepCounter: "59"

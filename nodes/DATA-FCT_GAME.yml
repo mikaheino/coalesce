@@ -1,0 +1,282 @@
+steps:
+  FCT_GAME-66:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 821
+              stepCounter: "66"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GAME_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 765
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 822
+              stepCounter: "66"
+            dataType: VARCHAR(15)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SEASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 766
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 823
+              stepCounter: "66"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 767
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 824
+              stepCounter: "66"
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATE_TIME_GMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 768
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 825
+              stepCounter: "66"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AWAY_TEAM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 769
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 826
+              stepCounter: "66"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HOME_TEAM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 770
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 827
+              stepCounter: "66"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AWAY_GOALS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 771
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 828
+              stepCounter: "66"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HOME_GOALS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 772
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 829
+              stepCounter: "66"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OUTCOME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 773
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 830
+              stepCounter: "66"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HOME_RINK_SIDE_START
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 774
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 831
+              stepCounter: "66"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VENUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 775
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 832
+              stepCounter: "66"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VENUE_LINK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 776
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 833
+              stepCounter: "66"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VENUE_TIME_ZONE_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 777
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 834
+              stepCounter: "66"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VENUE_TIME_ZONE_OFFSET
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 778
+                    stepCounter: "61"
+                transform: ""
+          - columnReference:
+              columnCounter: 835
+              stepCounter: "66"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: VENUE_TIME_ZONE_TZ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 779
+                    stepCounter: "61"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 836
+              stepCounter: "66"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 837
+              stepCounter: "66"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DATA
+                nodeName: STG_GAME
+            join:
+              joinCondition: FROM {{ ref('DATA', 'STG_GAME') }} "STG_GAME"
+            name: FCT_GAME
+            noLinkRefs: []
+      name: FCT_GAME
+      overrideSQL: false
+      schema: ""
+      sqlType: Fact
+      type: sql
+    stepCounter: "66"

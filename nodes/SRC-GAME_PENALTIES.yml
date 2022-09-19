@@ -1,5 +1,5 @@
 steps:
-  GAME_PENALTIES-11:
+  GAME_PENALTIES-52:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 67
-              stepCounter: 11
+              columnCounter: 675
+              stepCounter: 52
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 68
-              stepCounter: 11
+              columnCounter: 676
+              stepCounter: 52
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 69
-              stepCounter: 11
+              columnCounter: 677
+              stepCounter: 52
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -59,4 +59,4 @@ steps:
       sqlType: Source
       table: GAME_PENALTIES
       type: sourceInput
-    stepCounter: "11"
+    stepCounter: "52"

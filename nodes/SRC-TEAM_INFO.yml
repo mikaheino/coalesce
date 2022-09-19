@@ -1,5 +1,5 @@
 steps:
-  TEAM_INFO-19:
+  TEAM_INFO-60:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 151
-              stepCounter: 19
+              columnCounter: 759
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 152
-              stepCounter: 19
+              columnCounter: 760
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 153
-              stepCounter: 19
+              columnCounter: 761
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -57,8 +57,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 154
-              stepCounter: 19
+              columnCounter: 762
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -72,8 +72,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 155
-              stepCounter: 19
+              columnCounter: 763
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(10)
             defaultValue: ""
@@ -87,8 +87,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 156
-              stepCounter: 19
+              columnCounter: 764
+              stepCounter: 60
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -104,4 +104,4 @@ steps:
       sqlType: Source
       table: TEAM_INFO
       type: sourceInput
-    stepCounter: "19"
+    stepCounter: "60"

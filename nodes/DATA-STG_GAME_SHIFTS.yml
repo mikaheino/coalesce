@@ -1,0 +1,108 @@
+steps:
+  STG_GAME_SHIFTS-65:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 816
+              stepCounter: "65"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GAME_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 703
+                    stepCounter: "56"
+                transform: TO_NUMBER("GAME_SHIFTS"."GAME_ID")
+          - columnReference:
+              columnCounter: 817
+              stepCounter: "65"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PLAYER_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 704
+                    stepCounter: "56"
+                transform: TO_NUMBER("GAME_SHIFTS"."PLAYER_ID")
+          - columnReference:
+              columnCounter: 818
+              stepCounter: "65"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 705
+                    stepCounter: "56"
+                transform: TO_NUMBER("GAME_SHIFTS"."PERIOD")
+          - columnReference:
+              columnCounter: 819
+              stepCounter: "65"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHIFT_START
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 706
+                    stepCounter: "56"
+                transform: IFF(SHIFT_START='NA', '0', TO_NUMBER(SHIFT_START))
+          - columnReference:
+              columnCounter: 820
+              stepCounter: "65"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHIFT_END
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 707
+                    stepCounter: "56"
+                transform: IFF(SHIFT_END='NA', '0', TO_NUMBER(SHIFT_END))
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: GAME_SHIFTS
+            join:
+              joinCondition: FROM {{ ref('SRC', 'GAME_SHIFTS') }} "GAME_SHIFTS"
+            name: STG_GAME_SHIFTS
+            noLinkRefs: []
+      name: STG_GAME_SHIFTS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "65"

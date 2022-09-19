@@ -1,0 +1,206 @@
+steps:
+  STG_PLAYER_INFO-63:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 798
+              stepCounter: "63"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PLAYER_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 747
+                    stepCounter: "59"
+                transform: TO_NUMBER(PLAYER_ID)
+          - columnReference:
+              columnCounter: 799
+              stepCounter: "63"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FIRSTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 748
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 800
+              stepCounter: "63"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 749
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 801
+              stepCounter: "63"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NATIONALITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 750
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 802
+              stepCounter: "63"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BIRTHCITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 751
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 803
+              stepCounter: "63"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PRIMARYPOSITION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 752
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 804
+              stepCounter: "63"
+            dataType: DATE
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BIRTHDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 753
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 805
+              stepCounter: "63"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BIRTHSTATEPROVINCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 754
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 806
+              stepCounter: "63"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HEIGHT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 755
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 807
+              stepCounter: "63"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: HEIGHT_CM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 756
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 808
+              stepCounter: "63"
+            dataType: VARCHAR(50)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WEIGHT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 757
+                    stepCounter: "59"
+                transform: ""
+          - columnReference:
+              columnCounter: 809
+              stepCounter: "63"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHOOTSCATCHES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 758
+                    stepCounter: "59"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: PLAYER_INFO
+            join:
+              joinCondition: FROM {{ ref('SRC', 'PLAYER_INFO') }} "PLAYER_INFO"
+            name: STG_PLAYER_INFO
+            noLinkRefs: []
+      name: STG_PLAYER_INFO
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "63"

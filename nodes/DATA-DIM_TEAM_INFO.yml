@@ -1,0 +1,379 @@
+steps:
+  DIM_TEAM_INFO-67:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 838
+              stepCounter: "67"
+            config: {}
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSurrogateKey: true
+            name: DIM_TEAM_INFO_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 838
+                    stepCounter: "67"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 839
+              stepCounter: "67"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            isChangeTracking: true
+            name: TEAM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 810
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 840
+              stepCounter: "67"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isChangeTracking: true
+            name: FRANCHISEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 811
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 841
+              stepCounter: "67"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHORTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 812
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 842
+              stepCounter: "67"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAMNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 813
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 843
+              stepCounter: "67"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ABBREVIATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 814
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 844
+              stepCounter: "67"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LINK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 815
+                    stepCounter: "64"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 845
+              stepCounter: "67"
+            config: {}
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemVersion: true
+            name: SYSTEM_VERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 845
+                    stepCounter: "67"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 864
+                    stepCounter: "68"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 846
+              stepCounter: "67"
+            config: {}
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCurrentFlag: true
+            name: SYSTEM_CURRENT_FLAG
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 846
+                    stepCounter: "67"
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences: []
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 865
+                    stepCounter: "68"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 847
+              stepCounter: "67"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemStartDate: true
+            name: SYSTEM_START_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 847
+                    stepCounter: "67"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences:
+                  - columnCounter: 866
+                    stepCounter: "68"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 848
+              stepCounter: "67"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemEndDate: true
+            name: SYSTEM_END_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 848
+                    stepCounter: "67"
+                transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+              - columnReferences:
+                  - columnCounter: 867
+                    stepCounter: "68"
+                transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 849
+              stepCounter: "67"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 849
+                    stepCounter: "67"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences:
+                  - columnCounter: 868
+                    stepCounter: "68"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 850
+              stepCounter: "67"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 850
+                    stepCounter: "67"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+              - columnReferences:
+                  - columnCounter: 869
+                    stepCounter: "68"
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DATA
+                nodeName: STG_TEAM_INFO
+            join:
+              joinCondition: FROM {{ ref('DATA', 'STG_TEAM_INFO') }} "STG_TEAM_INFO"
+            name: DIM_TEAM_INFO
+            noLinkRefs: []
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DATA
+                nodeName: STG_TEAM_INFO
+            join:
+              joinCondition: ""
+            name: NEW_SOURCE
+            noLinkRefs: []
+          - customSQL:
+              customSQL: ""
+            dependencies: []
+            join:
+              joinCondition: ""
+            name: NEW_SOURCE
+            noLinkRefs: []
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: DATA
+                nodeName: STG_TEAM_INFO
+            join:
+              joinCondition: ""
+            name: NEW_SOURCE
+            noLinkRefs: []
+      name: DIM_TEAM_INFO
+      overrideSQL: false
+      schema: ""
+      sqlType: Dimension
+      type: sql
+    stepCounter: "67"

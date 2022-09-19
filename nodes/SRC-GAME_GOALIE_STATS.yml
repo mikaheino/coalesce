@@ -1,5 +1,5 @@
 steps:
-  GAME_GOALIE_STATS-8:
+  GAME_GOALIE_STATS-49:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 41
-              stepCounter: 8
+              columnCounter: 649
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 42
-              stepCounter: 8
+              columnCounter: 650
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 43
-              stepCounter: 8
+              columnCounter: 651
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -57,8 +57,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 44
-              stepCounter: 8
+              columnCounter: 652
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -72,8 +72,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 45
-              stepCounter: 8
+              columnCounter: 653
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -87,8 +87,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 46
-              stepCounter: 8
+              columnCounter: 654
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -102,8 +102,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 47
-              stepCounter: 8
+              columnCounter: 655
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -117,8 +117,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 48
-              stepCounter: 8
+              columnCounter: 656
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -132,8 +132,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 49
-              stepCounter: 8
+              columnCounter: 657
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -147,8 +147,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 50
-              stepCounter: 8
+              columnCounter: 658
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -162,8 +162,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 51
-              stepCounter: 8
+              columnCounter: 659
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -177,8 +177,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 52
-              stepCounter: 8
+              columnCounter: 660
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -192,8 +192,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 53
-              stepCounter: 8
+              columnCounter: 661
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -207,8 +207,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 54
-              stepCounter: 8
+              columnCounter: 662
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -222,8 +222,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 55
-              stepCounter: 8
+              columnCounter: 663
+              stepCounter: 49
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -237,8 +237,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 56
-              stepCounter: 8
+              columnCounter: 664
+              stepCounter: 49
             config: {}
             dataType: VARCHAR(2)
             defaultValue: ""
@@ -252,8 +252,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 57
-              stepCounter: 8
+              columnCounter: 665
+              stepCounter: 49
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -267,8 +267,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 58
-              stepCounter: 8
+              columnCounter: 666
+              stepCounter: 49
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -282,8 +282,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 59
-              stepCounter: 8
+              columnCounter: 667
+              stepCounter: 49
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -299,4 +299,4 @@ steps:
       sqlType: Source
       table: GAME_GOALIE_STATS
       type: sourceInput
-    stepCounter: "8"
+    stepCounter: "49"

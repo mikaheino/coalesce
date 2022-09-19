@@ -1,0 +1,290 @@
+steps:
+  STG_GAME_PLAYS-62:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: SRC
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 780
+              stepCounter: "62"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PLAY_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 678
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 781
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GAME_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 679
+                    stepCounter: "53"
+                transform: TO_NUMBER(GAME_ID)
+          - columnReference:
+              columnCounter: 782
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAM_ID_FOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 680
+                    stepCounter: "53"
+                transform: IFF(TEAM_ID_FOR='NA', '999', TO_NUMBER(TEAM_ID_FOR))
+          - columnReference:
+              columnCounter: 783
+              stepCounter: "62"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAM_ID_AGAINST
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 681
+                    stepCounter: "53"
+                transform: IFF(TEAM_ID_AGAINST='NA', '999', TO_NUMBER(TEAM_ID_AGAINST))
+          - columnReference:
+              columnCounter: 784
+              stepCounter: "62"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: EVENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 682
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 785
+              stepCounter: "62"
+            dataType: VARCHAR(100)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SECONDARYTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 683
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 786
+              stepCounter: "62"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: X
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 684
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 787
+              stepCounter: "62"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: Y
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 685
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 788
+              stepCounter: "62"
+            dataType: VARCHAR(2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 686
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 789
+              stepCounter: "62"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 687
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 790
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 688
+                    stepCounter: "53"
+                transform: IFF(PERIODTIME='NA', '999', TO_NUMBER(PERIODTIME))
+          - columnReference:
+              columnCounter: 791
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PERIODTIMEREMAINING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 689
+                    stepCounter: "53"
+                transform: IFF(PERIODTIMEREMAINING='NA', '999', TO_NUMBER(PERIODTIMEREMAINING))
+          - columnReference:
+              columnCounter: 792
+              stepCounter: "62"
+            dataType: DATE
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 690
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 793
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GOALSAWAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 691
+                    stepCounter: "53"
+                transform: TO_NUMBER(GOALSAWAYS)
+          - columnReference:
+              columnCounter: 794
+              stepCounter: "62"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GOALSHOME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 692
+                    stepCounter: "53"
+                transform: "TO_NUMBER(GOALSHOME)\r\n"
+          - columnReference:
+              columnCounter: 795
+              stepCounter: "62"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 693
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 796
+              stepCounter: "62"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ST_X
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 694
+                    stepCounter: "53"
+                transform: ""
+          - columnReference:
+              columnCounter: 797
+              stepCounter: "62"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ST_Y
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 695
+                    stepCounter: "53"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: GAME_PLAYS
+            join:
+              joinCondition: FROM {{ ref('SRC', 'GAME_PLAYS') }} "GAME_PLAYS"
+            name: STG_GAME_PLAYS
+            noLinkRefs: []
+      name: STG_GAME_PLAYS
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "62"

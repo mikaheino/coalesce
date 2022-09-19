@@ -1,5 +1,5 @@
 steps:
-  GAME_GOALS-9:
+  GAME_GOALS-50:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 60
-              stepCounter: 9
+              columnCounter: 668
+              stepCounter: 50
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 61
-              stepCounter: 9
+              columnCounter: 669
+              stepCounter: 50
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 62
-              stepCounter: 9
+              columnCounter: 670
+              stepCounter: 50
             config: {}
             dataType: VARCHAR(15)
             defaultValue: ""
@@ -57,8 +57,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 63
-              stepCounter: 9
+              columnCounter: 671
+              stepCounter: 50
             config: {}
             dataType: VARCHAR(15)
             defaultValue: ""
@@ -74,4 +74,4 @@ steps:
       sqlType: Source
       table: GAME_GOALS
       type: sourceInput
-    stepCounter: "9"
+    stepCounter: "50"

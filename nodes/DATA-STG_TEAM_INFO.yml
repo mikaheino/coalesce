@@ -1,0 +1,122 @@
+steps:
+  STG_TEAM_INFO-64:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: DATA
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 810
+              stepCounter: "64"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAM_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 759
+                    stepCounter: "60"
+                transform: TO_NUMBER(TEAM_ID)
+          - columnReference:
+              columnCounter: 811
+              stepCounter: "64"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FRANCHISEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 760
+                    stepCounter: "60"
+                transform: TO_NUMBER("TEAM_INFO"."FRANCHISEID")
+          - columnReference:
+              columnCounter: 812
+              stepCounter: "64"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SHORTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 761
+                    stepCounter: "60"
+                transform: ""
+          - columnReference:
+              columnCounter: 813
+              stepCounter: "64"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TEAMNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 762
+                    stepCounter: "60"
+                transform: ""
+          - columnReference:
+              columnCounter: 814
+              stepCounter: "64"
+            dataType: VARCHAR(10)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ABBREVIATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 763
+                    stepCounter: "60"
+                transform: ""
+          - columnReference:
+              columnCounter: 815
+              stepCounter: "64"
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LINK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 764
+                    stepCounter: "60"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: TEAM_INFO
+            join:
+              joinCondition: FROM {{ ref('SRC', 'TEAM_INFO') }} "TEAM_INFO"
+            name: STG_TEAM_INFO
+            noLinkRefs: []
+      name: STG_TEAM_INFO
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "64"

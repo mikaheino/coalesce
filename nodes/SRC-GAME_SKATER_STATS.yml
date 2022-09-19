@@ -1,5 +1,5 @@
 steps:
-  GAME_SKATER_STATS-16:
+  GAME_SKATER_STATS-57:
     operation:
       database: ""
       dataset: ""
@@ -12,8 +12,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 100
-              stepCounter: 16
+              columnCounter: 708
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -27,8 +27,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 101
-              stepCounter: 16
+              columnCounter: 709
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -42,8 +42,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 102
-              stepCounter: 16
+              columnCounter: 710
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -57,8 +57,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 103
-              stepCounter: 16
+              columnCounter: 711
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -72,8 +72,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 104
-              stepCounter: 16
+              columnCounter: 712
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -87,8 +87,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 105
-              stepCounter: 16
+              columnCounter: 713
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -102,8 +102,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 106
-              stepCounter: 16
+              columnCounter: 714
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -117,8 +117,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 107
-              stepCounter: 16
+              columnCounter: 715
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -132,8 +132,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 108
-              stepCounter: 16
+              columnCounter: 716
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -147,8 +147,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 109
-              stepCounter: 16
+              columnCounter: 717
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -162,8 +162,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 110
-              stepCounter: 16
+              columnCounter: 718
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -177,8 +177,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 111
-              stepCounter: 16
+              columnCounter: 719
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -192,8 +192,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 112
-              stepCounter: 16
+              columnCounter: 720
+              stepCounter: 57
             config: {}
             dataType: NUMBER(38,0)
             defaultValue: ""
@@ -207,8 +207,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 113
-              stepCounter: 16
+              columnCounter: 721
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -222,8 +222,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 114
-              stepCounter: 16
+              columnCounter: 722
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -237,8 +237,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 115
-              stepCounter: 16
+              columnCounter: 723
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -252,8 +252,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 116
-              stepCounter: 16
+              columnCounter: 724
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -267,8 +267,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 117
-              stepCounter: 16
+              columnCounter: 725
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(16777216)
             defaultValue: ""
@@ -282,8 +282,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 118
-              stepCounter: 16
+              columnCounter: 726
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(50)
             defaultValue: ""
@@ -297,8 +297,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 119
-              stepCounter: 16
+              columnCounter: 727
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -312,8 +312,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 120
-              stepCounter: 16
+              columnCounter: 728
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -327,8 +327,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 121
-              stepCounter: 16
+              columnCounter: 729
+              stepCounter: 57
             config: {}
             dataType: VARCHAR(255)
             defaultValue: ""
@@ -344,4 +344,4 @@ steps:
       sqlType: Source
       table: GAME_SKATER_STATS
       type: sourceInput
-    stepCounter: "16"
+    stepCounter: "57"
